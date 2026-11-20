@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "HridayTwin: A Personal Digital Twin and Fused Risk Engine for Predicting Adverse Cardiometabolic Events in Indian Adults with Diabetes and Hypertension"
+type: software
+authors:
+  - family-names: Kalita
+    given-names: Manjit
+    affiliation: Goa Institute of Management
+  - family-names: Sorathiya
+    given-names: Dhruvik
+    affiliation: Goa Institute of Management
+  - family-names: Pandya
+    given-names: Kruparth
+    affiliation: Goa Institute of Management
+repository-code: "https://github.com/Mazekerr/hridaytwin-amlbt"
+license: MIT
+date-released: 2026-11-20
+keywords:
+  - digital twin
+  - Kalman filter
+  - gradient boosting
+  - remote patient monitoring
+  - diabetes
+  - hypertension
