@@ -7,7 +7,7 @@
 
 | | |
 |---|---|
-| **Team** | Manjit Kalita · Dhruvik Sorathiya · Kruparth Pandya |
+| **Team** | Dhruvik Sorathiya · Kruparth Pandya |
 | **Institute** | Goa Institute of Management, Big Data Analytics |
 | **Project report (IEEE format)** | [`report/HridayTwin_AMLBT_Report.pdf`](report/HridayTwin_AMLBT_Report.pdf) · LaTeX source in [`report/`](report/) |
 | **Clinician console** | [`dashboard/index.html`](dashboard/index.html): one self-contained file, open it in any browser. With GitHub Pages switched on it is also at `https://mazekerr.github.io/hridaytwin-amlbt/dashboard/` |

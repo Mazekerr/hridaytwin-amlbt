@@ -3,9 +3,6 @@ message: "If you use this work, please cite it as below."
 title: "HridayTwin: A Personal Digital Twin and Fused Risk Engine for Predicting Adverse Cardiometabolic Events in Indian Adults with Diabetes and Hypertension"
 type: software
 authors:
-  - family-names: Kalita
-    given-names: Manjit
-    affiliation: Goa Institute of Management
   - family-names: Sorathiya
     given-names: Dhruvik
     affiliation: Goa Institute of Management
