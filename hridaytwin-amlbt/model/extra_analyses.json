@@ -1,0 +1,84 @@
+{
+  "fused_auroc": 0.7257,
+  "alert_budgets": {
+    "5_per_100_patient_weeks": {
+      "fused": {
+        "alert_budget_per_patient_week": 0.05,
+        "threshold": 0.1283,
+        "sensitivity": 0.168,
+        "ppv": 0.151,
+        "base_rate": 0.0449,
+        "lift_over_base_rate": 3.36,
+        "median_lead_time_days": 7.0
+      },
+      "rules": {
+        "alert_budget_per_patient_week": 0.05,
+        "threshold": 1.75,
+        "sensitivity": 0.135,
+        "ppv": 0.121,
+        "base_rate": 0.0449,
+        "lift_over_base_rate": 2.7,
+        "median_lead_time_days": 7.0
+      }
+    },
+    "10_per_100_patient_weeks": {
+      "fused": {
+        "alert_budget_per_patient_week": 0.1,
+        "threshold": 0.0941,
+        "sensitivity": 0.291,
+        "ppv": 0.131,
+        "base_rate": 0.0449,
+        "lift_over_base_rate": 2.91,
+        "median_lead_time_days": 7.0
+      },
+      "rules": {
+        "alert_budget_per_patient_week": 0.1,
+        "threshold": 1.25,
+        "sensitivity": 0.239,
+        "ppv": 0.108,
+        "base_rate": 0.0449,
+        "lift_over_base_rate": 2.39,
+        "median_lead_time_days": 7.0
+      }
+    },
+    "20_per_100_patient_weeks": {
+      "fused": {
+        "alert_budget_per_patient_week": 0.2,
+        "threshold": 0.0625,
+        "sensitivity": 0.476,
+        "ppv": 0.107,
+        "base_rate": 0.0449,
+        "lift_over_base_rate": 2.38,
+        "median_lead_time_days": 7.0
+      },
+      "rules": {
+        "alert_budget_per_patient_week": 0.2,
+        "threshold": 1.0,
+        "sensitivity": 0.393,
+        "ppv": 0.088,
+        "base_rate": 0.0449,
+        "lift_over_base_rate": 1.97,
+        "median_lead_time_days": 7.0
+      }
+    }
+  },
+  "shap_top12": {
+    "med_sulfonylurea": 0.227,
+    "hba1c": 0.1946,
+    "age": 0.1886,
+    "sbp_clinic": 0.1438,
+    "glucose_m28": 0.1309,
+    "dbp_m7": 0.1046,
+    "events_past": 0.0849,
+    "prior_cvd": 0.0834,
+    "sbp_m28": 0.0779,
+    "log_uacr": 0.076,
+    "bmi": 0.0749,
+    "fast_days_next14": 0.0544
+  },
+  "shap_group_share": {
+    "clinic_record": 0.601,
+    "calendar": 0.029,
+    "home_device_stream": 0.371
+  }
+}
